@@ -1,4 +1,14 @@
 alert("Welcome, to the password validator tool!");
+
+alert("Please validate your password.");
+
+if (passwordLength => 10){
+    console.log("Password was successful.");
+} else {
+    console.log("Password failed. Please try again.");
+}
+
+/*
 function generatePassword(passwordLength) {
     let numberChars = "0123456789";
     let upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -15,4 +25,4 @@ function generatePassword(passwordLength) {
 
 }
 alert(generatePassword(12));
-
+*/

@@ -45,11 +45,17 @@ console.log(middleNums);
 
 // CODE HERE
 
-function bigOrSmall (answers) {
-  for( let i = 0; i <=100; i++){
-    console.log('big');
-  } else {
-      console.log('small')
-    }
-  }
+function bigOrSmall(){
+  console(arguments.length+"");
+}
 
+bigOrSmall();
+bigOrSmall(big);
+bigOrSmall(small);
+
+function bigOrSmall () {
+  for (let i =0; j = arguments.length; i <j++){
+    console.log(arguments[i]+'');
+  }
+  console.log('');
+}
