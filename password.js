@@ -1,4 +1,17 @@
-alert("Welcome, to the password validator tool!");
+alert("Hello World!");
+
+
+const str = `W l om  to p sswor  v li  tor tool 
+X .  X     X     X  X  XX         
+X .  X     X     X  X  XX         
+X .  X     .     X  .  X.         
+X .  X     .     X  .  X.         
+X .  X     .     X  .  X.         
+. .  .     .     X  .  X.         
+                                  
+Welcome to password validator tool!`;
+ console.log(str);
+
 
 alert("Please validate your password.");
 
@@ -7,6 +20,8 @@ if (passwordLength => 10){
 } else {
     console.log("Password failed. Please try again.");
 }
+
+
 
 /*
 function generatePassword(passwordLength) {
