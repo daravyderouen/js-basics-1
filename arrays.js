@@ -59,6 +59,6 @@ return {
 }
 })();
     
-answer.bigOrSmall(500);
+answer.bigOrSmall(600);
    
 
