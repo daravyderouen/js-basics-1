@@ -39,7 +39,7 @@ let gitHubDefinition = "GitHub is a website that allows you to take your git rep
 
 //CODE HERE
 
-let gitInit = "The code command that allows you to initialize a local repository is called git init";
+let gitInit = "The code command that allows you to initialize a local repository is called git init.";
 
 //////////////////PROBLEM 4////////////////////
 /*
