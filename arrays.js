@@ -5,7 +5,6 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
-
 const colorCopy = faveColors.slice(0,3);
 console.log(colorCopy);
 
