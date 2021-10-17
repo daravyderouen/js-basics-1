@@ -31,7 +31,7 @@ console.log('Password must contain at least one Uppercase letter & a number');
 let password ='iLove2Code';
 
 
-if (password.length > 10) {
+if (password.length < 10) {
   console.log("Failed! Your password needs a minimum of four characters.")
 } else if (password.search(/[a-z]/) < 0) {
   console.log("Failed! Your password needs a lower case letter.")
