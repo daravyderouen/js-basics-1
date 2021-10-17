@@ -45,17 +45,21 @@ console.log(middleNums);
 
 // CODE HERE
 
-function bigOrSmall(){
-  console(arguments.length+"");
-}
+let numsArr = [50, 80, 250, 100, 300, 1, -6]
 
-bigOrSmall();
-bigOrSmall(big);
-bigOrSmall(small);
+let answer= (function(){
 
-function bigOrSmall () {
-  for (let i =0; j = arguments.length; i <j++){
-    console.log(arguments[i]+'');
+return {
+  bigOrSmall: function(numsArr){
+    if(numsArr > 100){
+      console.log("big")
+    } else {
+      console.log("small")
+    }
   }
-  console.log('');
 }
+})();
+    
+answer.bigOrSmall(500);
+   
+
