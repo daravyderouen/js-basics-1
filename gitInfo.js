@@ -77,7 +77,6 @@ let gitAdd = "The code command to add some files to be tracked is called git add
     following the guidelines above to describe the commit command.
 */
 
-
 //CODE HERE
 
 let gitCommit = "The code command to create a snapshot of the files I'm tracking is called git commit. However, git commits should always include a message that will allow the developer or another developer to understand descriptively well.";
