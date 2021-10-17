@@ -32,13 +32,13 @@ let password ='iLove2Code';
 
 
 if (password.length > 10) {
-  console.log("Your password needs a minimum of four characters.")
+  console.log("Failed! Your password needs a minimum of four characters.")
 } else if (password.search(/[a-z]/) < 0) {
-  console.log("Your password needs a lower case letter.")
+  console.log("Failed! Your password needs a lower case letter.")
 } else if(password.search(/[A-Z]/) < 0) {
-  console.log("Your password needs an uppser case letter.")
+  console.log("Failed! Your password needs an uppser case letter.")
 } else  if (password.search(/[0-9]/) < 0) {
-  console.log("Your password needs a number.")
+  console.log("Failed! Your password needs a number.")
  } else {
   console.log("You're in! Let's go!")
 }
