@@ -39,7 +39,6 @@ if (faveNum !== 13){
   Write a for loop that prints out your faveNum 5 times.
 */
 
-
 //CODE HERE
 
 let num = "16";
