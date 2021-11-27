@@ -5,12 +5,12 @@
     Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
 */
 
-Planning
-Analysis of Requirements
-Design
-Implementation
-Testing & Integration
-Maintain
+let planning = "The first step of Software Development Lifecycle";
+let analysisOfRequirements = "The second step of Software Development Lifecycle";
+let design = "The third step of Software Development Lifecycle";
+let implementation = "The fourth step of Software Development Lifecycle";
+let testingAndIntegration = "The fifth step of Software Development Lifecycle";
+let maintain = "The sixth step of software Development Lifecycle";
 
 
 

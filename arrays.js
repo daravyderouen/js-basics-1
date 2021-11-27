@@ -44,21 +44,22 @@ console.log(middleNums);
 
 // CODE HERE
 
-let numsArr = [50, 80, 250, 100, 300, 1, -6]
 
-let answer= (function(){
 
-return {
-  bigOrSmall: function(numsArr){
-    if(numsArr > 100){
-      console.log("big")
-    } else {
-      console.log("small")
-    }
+function bigOrSmall (arr) {
+  let answers = [50, 80, 250, 100, 300, 1, 6]
+  for ( let i = 0; i <= answers.length; i++) {
+    if (answers[i] > 100){
+        console.log('big')
+    }else if (answers[i] <= 100){
+        console.log('small')
+    } 
+
   }
-}
-})();
-    
-answer.bigOrSmall(600);
-   
+  
+};
+
+console.log(bigOrSmall())
+
+
 

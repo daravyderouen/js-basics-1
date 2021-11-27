@@ -1,0 +1,1 @@
+let validate = checkPassword

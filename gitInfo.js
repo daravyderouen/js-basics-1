@@ -21,7 +21,7 @@ let gitDefinition = "Git is a program that helps you revise our documents, add t
 
 //CODE HERE
 
-let gitHubDefinition = "GitHub is a website that allows you to take your git repositories and upload/download them. It is essentially a cloud service for your git repositories.";
+let gitHubDefinition = "GitHub is a website that allows you to take your git repositories and upload/download them. It is essentially a cloud service for your files & folders.";
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -39,7 +39,7 @@ let gitHubDefinition = "GitHub is a website that allows you to take your git rep
 
 //CODE HERE
 
-let gitInit = "The code command that allows you to initialize a local repository is called git init.";
+let gitInit = "The 'git init' command allows you establish that you are in that folder and looking in to that specific folder.";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -49,7 +49,7 @@ let gitInit = "The code command that allows you to initialize a local repository
 
 //CODE HERE
 
-let gitClone = "The code command that allows you to copy a repo from Github and put it on your machine is called git clone, but you must also add in your repo URL after you type git clone with a space after clone.";
+let gitClone = "The 'git clone' command allows you to copy a repo from Github that has already been made and put it on your local branch, but you must also add in your repo URL after you type git clone with a space after clone.";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -59,7 +59,7 @@ let gitClone = "The code command that allows you to copy a repo from Github and 
 
 //CODE HERE
 
-let gitStatus = "The code command to tell me about a certain repo is called git status.";
+let gitStatus = "'git status' is a command that lets you know which folder you currently you are in and what branch.";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -69,7 +69,7 @@ let gitStatus = "The code command to tell me about a certain repo is called git 
 
 //CODE HERE
 
-let gitAdd = "The code command to add some files to be tracked is called git add.";
+let gitAdd = "'git add .' adds all the files that needs to be in the repository folder. It also includes ANY and ALL changes that we've made to the documents.";
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -79,7 +79,7 @@ let gitAdd = "The code command to add some files to be tracked is called git add
 
 //CODE HERE
 
-let gitCommit = "The code command to create a snapshot of the files I'm tracking is called git commit. However, git commits should always include a message that will allow the developer or another developer to understand descriptively well.";
+let gitCommit = "'git commit -m 'Comment on changes' is a command that comes after you have added your files and is ready to be committed to the gitHub repository. The books(files) are in the boxes(folders) and being tapped up waiting to be pushed(into gitHub) out.";
 
 
 //////////////////PROBLEM 8////////////////////
@@ -90,4 +90,4 @@ let gitCommit = "The code command to create a snapshot of the files I'm tracking
 
 //CODE HERE
 
-let gitPush = "The code command to allow local commits to go through to Github is called git push. This too must be followed by the repo name.";
+let gitPush = "'git push' is the command after you have completed git commit command. It's purpose to is to 'push' your committed files into gitHub. It's like the boxes(files) are all packed(in folders) and it just needs to be pushed into the truck.";

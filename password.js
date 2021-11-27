@@ -1,17 +1,5 @@
 
 
-const readline = require("readline");
-
-const reader = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-reader.question("Hello! What is your name?", function(answer) {
-  console.log("Hi " + answer);
-});
-
-
 const str = `W l om  to p sswor  v li  tor tool 
 X .  X     X     X  X  XX         
 X .  X     X     X  X  XX         
@@ -24,33 +12,44 @@ Welcome to password validator tool!`;
 console.log(str);
 
 
-
-console.log('Password must be at least 10 Characters');
-console.log('Password must contain at least one Uppercase letter & a number');
-
-let password ='iLove2Code';
-
-
-if (password.length < 10) {
-  console.log("Failed! Your password needs a minimum of four characters.")
-} else if (password.search(/[a-z]/) < 0) {
-  console.log("Failed! Your password needs a lower case letter.")
-} else if(password.search(/[A-Z]/) < 0) {
-  console.log("Failed! Your password needs an uppser case letter.")
-} else  if (password.search(/[0-9]/) < 0) {
-  console.log("Failed! Your password needs a number.")
- } else {
-  console.log("You're in! Let's go!")
-}
-
-/*
-
-  if  (pass.length > 10) {
-  console.log("Congrats! You're logged in!");  
-  } else {
-    console.log("Failed! Try again!");
+  function doesContainCapitalLetter(str) {
+    return str.split('').some(char => (char === char.toUpperCase())); {
+      return ('password must contain uppercase')
+    };
+  } 
+  function doesContainDigitCharacter(str) {
+    return (/\d/).test(str);{
+      
+    }
+    
   }
-}
-
-
-*/
+  function doesContainPunctuationMark(str) {
+    return (/[.,!?:;]/).test(str);
+  }
+  function doesNotContainPasswordLiterally(str) {
+    return !(/password/i).test(str);
+  }
+  function doesHaveCorrectLength(str) {
+    return ((str.length >= 8));
+  }
+  
+  function isValidPassword(str) {
+    if(str.length < 8){
+      return ('Your password need at least 8 characters.')
+    } else if (str.length <8 && str !== doesContainCapitalLetter){
+      return ('You password must contain a capital letter.')
+    }
+    return (
+      doesHaveCorrectLength(str)
+      && doesNotContainPasswordLiterally(str)
+      && doesContainPunctuationMark(str)
+      && doesContainDigitCharacter(str)
+      && doesContainCapitalLetter(str)
+      );
+  }
+  
+  
+  console.log(isValidPassword('Ilove2Code@!!'));
+  
+  console.log(isValidPassword('nosw1swod'));
+  
