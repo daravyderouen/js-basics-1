@@ -17,7 +17,7 @@ console.log(str);
       return ('password must contain uppercase')
     };
   } 
-  function doesContainDigitCharacter(str) {
+  function doesContainCharacter(str) {
     return (/\d/).test(str);{
       
     }
@@ -26,9 +26,7 @@ console.log(str);
   function doesContainPunctuationMark(str) {
     return (/[.,!?:;]/).test(str);
   }
-  function doesNotContainPasswordLiterally(str) {
-    return !(/password/i).test(str);
-  }
+
   function doesHaveCorrectLength(str) {
     return ((str.length >= 8));
   }
@@ -41,9 +39,8 @@ console.log(str);
     }
     return (
       doesHaveCorrectLength(str)
-      && doesNotContainPasswordLiterally(str)
       && doesContainPunctuationMark(str)
-      && doesContainDigitCharacter(str)
+      && doesContainCharacter(str)
       && doesContainCapitalLetter(str)
       );
   }
@@ -51,5 +48,5 @@ console.log(str);
   
   console.log(isValidPassword('Ilove2Code@!!'));
   
-  console.log(isValidPassword('nosw1swod'));
+  console.log(isValidPassword('noswod'));
   
